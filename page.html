@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élite de IA Paraguay | Revoluciona tu futuro con Inteligencia Artificial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .glow {
+            box-shadow: 0 0 15px rgba(167, 119, 227, 0.5);
+        }
+        
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(110,142,251,0.5) 50%, rgba(0,0,0,0) 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-robot text-2xl text-indigo-600 mr-2"></i>
+                        <span class="text-xl font-semibold text-gray-900">Élite IA PY</span>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-8">
+                        <a href="#features" class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Beneficios</a>
+                        <a href="#testimonials" class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Testimonios</a>
+                        <a href="#pricing" class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Membresía</a>
+                        <a href="#faq" class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium">FAQ</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button p-2 rounded-md text-gray-700 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#features" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Beneficios</a>
+                <a href="#testimonials" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Testimonios</a>
+                <a href="#pricing" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">Membresía</a>
+                <a href="#faq" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <span class="inline-block px-3 py-1 text-xs font-semibold bg-white/20 rounded-full mb-4">PLAZAS LIMITADAS</span>
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">Revoluciona tu futuro con <span class="text-yellow-300">Inteligencia Artificial</span></h1>
+                    <p class="text-xl opacity-90 mb-8">Únete a la única comunidad de élite en Paraguay donde descubrirás, aplicarás y dominarás las herramientas de IA que están redefiniendo industrias enteras.</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://www.tpago.com.py/links/PBFWD13480" class="bg-white text-indigo-600 hover:bg-gray-100 font-semibold py-3 px-6 rounded-lg text-center transition duration-300 transform hover:scale-105 glow">
+                            Únete Ahora - 67.000 Gs/mes
+                        </a>
+                        <a href="#features" class="border-2 border-white text-white hover:bg-white/10 font-semibold py-3 px-6 rounded-lg text-center transition duration-300">
+                            <i class="fas fa-info-circle mr-2"></i> Conoce Más
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <div class="absolute -top-6 -left-6 w-32 h-32 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                        <div class="absolute -bottom-8 -right-6 w-32 h-32 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                        <div class="absolute top-16 -right-4 w-32 h-32 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+                        <div class="relative bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                            <div class="flex items-center mb-4">
+                                <div class="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-500 mr-2"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                <span class="ml-4 text-sm font-medium">Sesión IA - Michael</span>
+                            </div>
+                            <div class="bg-black/30 rounded-lg p-4 font-mono text-sm mb-4">
+                                <p class="text-green-400">$ Bienvenido a la comunidad Élite IA PY</p>
+                                <p class="text-white">> Estás a punto de acceder a:</p>
+                                <p class="text-yellow-300 ml-4">- Dominio de clonación de IA</p>
+                                <p class="text-yellow-300 ml-4">- Modelos de lenguaje avanzados</p>
+                                <p class="text-yellow-300 ml-4">- Automatización empresarial</p>
+                                <p class="text-green-400">$ Únete ahora: [tpago.com.py/PBFWD13480]</p>
+                            </div>
+                            <div class="flex">
+                                <input type="text" class="flex-grow bg-white/20 border border-white/30 rounded-l-lg px-4 py-2 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white" placeholder="Escribe tu consulta...">
+                                <button class="bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-r-lg">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Cloud -->
+    <div class="bg-gray-100 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-gray-500 text-sm mb-6">TECNOLOGÍAS QUE DOMINARÁS</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <i class="fab fa-google text-3xl text-gray-700 hover:text-blue-500 transition" title="Google AI"></i>
+                <i class="fab fa-microsoft text-3xl text-gray-700 hover:text-green-600 transition" title="Microsoft AI"></i>
+                <i class="fab fa-aws text-3xl text-gray-700 hover:text-orange-500 transition" title="AWS AI"></i>
+                <i class="fas fa-robot text-3xl text-gray-700 hover:text-purple-600 transition" title="LLMs"></i>
+                <i class="fas fa-brain text-3xl text-gray-700 hover:text-indigo-600 transition" title="Machine Learning"></i>
+                <i class="fas fa-code text-3xl text-gray-700 hover:text-yellow-500 transition" title="Automatización"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="inline-block px-3 py-1 text-xs font-semibold bg-indigo-100 text-indigo-600 rounded-full mb-4">COMUNIDAD EXCLUSIVA</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Acceso privilegiado al futuro de la IA</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">No teoría, sino implementación práctica guiada por experiencia real con clientes internacionales.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-white rounded-xl p-8 border border-gray-200 transition duration-300 hover:border-indigo-300">
+                    <div class="w-14 h-14 bg-indigo-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-clone text-2xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Dominio de Clonación de IA</h3>
+                    <p class="text-gray-600">Crea modelos personalizados que revolucionen tu negocio o profesión con técnicas avanzadas de clonación de inteligencia artificial.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card bg-white rounded-xl p-8 border border-gray-200 transition duration-300 hover:border-indigo-300">
+                    <div class="w-14 h-14 bg-purple-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-language text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Acceso Premium a LLMs</h3>
+                    <p class="text-gray-600">Utiliza modelos de lenguaje avanzados sin costo que normalmente están reservados para grandes corporaciones y tecnológicas.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card bg-white rounded-xl p-8 border border-gray-200 transition duration-300 hover:border-indigo-300">
+                    <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-magic text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Ingeniería de Prompts</h3>
+                    <p class="text-gray-600">Aprende técnicas profesionales que multiplican x10 la efectividad de cualquier herramienta de IA mediante ingeniería de prompts avanzada.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card bg-white rounded-xl p-8 border border-gray-200 transition duration-300 hover:border-indigo-300">
+                    <div class="w-14 h-14 bg-green-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-cogs text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Automatización Empresarial</h3>
+                    <p class="text-gray-600">Implementa flujos de trabajo inteligentes que hacen en minutos lo que antes tomaba días, optimizando todos tus procesos empresariales.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="feature-card bg-white rounded-xl p-8 border border-gray-200 transition duration-300 hover:border-indigo-300">
+                    <div class="w-14 h-14 bg-yellow-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-lightbulb text-2xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Conocimiento de Vanguardia</h3>
+                    <p class="text-gray-600">Recibe semanalmente las innovaciones más recientes que aprendo directamente de los líderes mundiales en IA y tecnología.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="feature-card bg-white rounded-xl p-8 border border-gray-200 transition duration-300 hover:border-indigo-300">
+                    <div class="w-14 h-14 bg-red-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Red de Visionarios</h3>
+                    <p class="text-gray-600">Conecta con profesionales que, como tú, están transformando sus industrias con IA, creando oportunidades de colaboración y networking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Unique Value Proposition -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex items-center gap-12">
+                <div class="lg:w-1/2 mb-12 lg:mb-0">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80" alt="IA en Paraguay" class="rounded-2xl shadow-xl w-full h-auto">
+                </div>
+                <div class="lg:w-1/2">
+                    <span class="inline-block px-3 py-1 text-xs font-semibold bg-indigo-100 text-indigo-600 rounded-full mb-4">ECOSISTEMA PIONERO</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">¿Por qué esta comunidad es diferente?</h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-indigo-600"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold">Experiencia Real y Aplicable</h3>
+                                <p class="text-gray-600 mt-1">No solo teoría, sino implementación práctica guiada por mi experiencia con clientes internacionales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-indigo-600"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold">Mentoría Directa</h3>
+                                <p class="text-gray-600 mt-1">Acceso semanal a sesiones donde resolvemos juntos tus desafíos específicos y comparto lo último en IA.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-indigo-600"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold">Ecosistema Paraguayo Pionero</h3>
+                                <p class="text-gray-600 mt-1">Sé parte del primer y único hub especializado en IA avanzada del país, con visión global.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-check text-indigo-600"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-semibold">Contenido Exclusivo</h3>
+                                <p class="text-gray-600 mt-1">Todo lo que sé, desde agentes de IA, instalación de VPs, las mejores LLMs, herramientas de automatización, creación de webapps con IA y más.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <a href="https://www.tpago.com.py/links/PBFWD13480" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                            Garantía de 30 días
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Dynamics -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="inline-block px-3 py-1 text-xs font-semibold bg-purple-100 text-purple-600 rounded-full mb-4">DINÁMICA SEMANAL</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Sesiones interactivas todos los jueves</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">8:00 PM por Zoom - Transformación en tiempo real</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-200">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Innovaciones en IA</h3>
+                    <p class="text-gray-600">Revelamos las últimas herramientas, técnicas y avances en inteligencia artificial que están cambiando el juego.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-200">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Casos Prácticos</h3>
+                    <p class="text-gray-600">Desarrollamos implementaciones reales de IA en negocios, mostrando el paso a paso para que puedas replicarlo.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-200">
+                    <div class="text-green-600 text-4xl mb-4">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Soluciones Personalizadas</h3>
+                    <p class="text-gray-600">Construimos juntos soluciones a medida para los desafíos específicos de los miembros de la comunidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Benefits -->
+    <section class="py-20 bg-indigo-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="inline-block px-3 py-1 text-xs font-semibold bg-indigo-100 text-indigo-600 rounded-full mb-4">OPORTUNIDAD ÚNICA</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Beneficios para Miembros Fundadores</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Únete ahora y asegura estos privilegios exclusivos</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-unlock text-indigo-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Acceso Completo</h3>
+                    <p class="text-gray-600 text-sm">A todo el contenido fundacional y herramientas exclusivas con actualizaciones constantes.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-headset text-indigo-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Prioridad en Consultas</h3>
+                    <p class="text-gray-600 text-sm">Atención preferencial en nuestras sesiones semanales de desarrollo y mentoría.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-tag text-indigo-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Descuentos Permanentes</h3>
+                    <p class="text-gray-600 text-sm">En todas las formaciones avanzadas, servicios premium, charlas y encuentros exclusivos.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-users text-indigo-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Grupo VIP</h3>
+                    <p class="text-gray-600 text-sm">Acceso al grupo exclusivo de WhatsApp para networking estratégico y resolución rápida de dudas.</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="text-lg font-medium mb-6">"No busco acumular miembros, sino formar una élite de innovadores comprometidos con dominar y aplicar la IA a nivel profesional"</p>
+                <a href="https://www.tpago.com.py/links/PBFWD13480" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-bold rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition duration-300 transform hover:scale-105 glow">
+                    Únete como Fundador - 67.000 Gs/mes
+                    <i class="fas fa-arrow-right ml-3"></i>
+                </a>
+                <p class="text-sm text-gray-500 mt-4">*Este valor es inicial y por única vez, luego sufrirá ajuste.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="inline-block px-3 py-1 text-xs font-semibold bg-green-100 text-green-600 rounded-full mb-4">INVERSIÓN ESTRATÉGICA</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Membresía Élite IA Paraguay</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Por tiempo limitado y única vez, accede a todo por un valor simbólico</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-indigo-100">
+                    <div class="p-8 bg-indigo-50 border-b border-indigo-100">
+                        <h3 class="text-2xl font-bold text-center text-indigo-900">Membresía Fundador</h3>
+                        <div class="mt-6 flex justify-center">
+                            <span class="text-5xl font-extrabold text-gray-900">67.000</span>
+                            <span class="text-xl font-medium text-gray-500 self-end mb-1">Gs/mes</span>
+                        </div>
+                        <p class="text-center text-gray-500 mt-2">Pago mensual recurrente</p>
+                    </div>
+                    <div class="p-8">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700"><strong>Acceso completo</strong> a la plataforma de miembros</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700"><strong>Sesiones semanales</strong> en vivo todos los jueves</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700"><strong>Grupo VIP</strong> de WhatsApp con networking estratégico</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700"><strong>Actualizaciones constantes</strong> con lo último en IA</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700"><strong>Descuentos exclusivos</strong> en formaciones avanzadas</p>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-check-circle text-green-500"></i>
+                                </div>
+                                <p class="ml-3 text-base text-gray-700"><strong>Garantía de 30 días</strong> - Si no cumple tus expectativas, te devolvemos tu dinero</p>
+                            </li>
+                        </ul>
+                        <div class="mt-8">
+                            <a href="https://www.tpago.com.py/links/PBFWD13480" class="w-full flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition duration-300 transform hover:scale-[1.02]">
+                                Asegura tu lugar ahora
+                                <i class="fas fa-arrow-right ml-3"></i>
+                            </a>
+                        </div>
+                        <p class="text-center text-sm text-gray-500 mt-4">Plazas limitadas - Decisión inteligente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="inline-block px-3 py-1 text-xs font-semibold bg-blue-100 text-blue-600 rounded-full mb-4">TRANSFORMACIONES REALES</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Lo que dicen nuestros miembros</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Testimonios de profesionales que están revolucionando sus negocios con IA</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user-tie text-indigo-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Carlos R.</h4>
+                            <p class="text-sm text-gray-500">Empresario - Asunción</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Implementé los sistemas de automatización que aprendí en la comunidad y reduje el tiempo de facturación de mi empresa de 3 días a 2 horas. El ROI fue inmediato."</p>
+                    <div class="mt-4 flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user-graduate text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Ana M.</h4>
+                            <p class="text-sm text-gray-500">Marketing Digital - CDE</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Las técnicas de ingeniería de prompts cambiaron completamente mi productividad. Ahora genero contenido de calidad en minutos que antes me tomaba días crear manualmente."</p>
+                    <div class="mt-4 flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user-md text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Dr. Roberto G.</h4>
+                            <p class="text-sm text-gray-500">Médico - Encarnación</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Creé un asistente de IA especializado en mi área médica que ayuda a mis pacientes con información preliminar. La comunidad me dio las herramientas para hacerlo realidad."</p>
+                    <div class="mt-4 flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 hero-gradient text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">La IA no es el futuro, es el presente</h2>
+            <p class="text-xl opacity-90 mb-8 max-w-3xl mx-auto">El mundo se está dividiendo entre quienes dominan la IA y quienes quedan atrás. ¿De qué lado quieres estar?</p>
+            <a href="https://www.tpago.com.py/links/PBFWD13480" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-bold rounded-md shadow-sm text-indigo-600 bg-white hover:bg-gray-100 transition duration-300 transform hover:scale-105 glow">
+                Únete a la Élite IA Paraguay
+                <i class="fas fa-arrow-right ml-3"></i>
+            </a>
+            <p class="text-sm opacity-80 mt-4">Al unirte hoy, recibirás acceso completo a la plataforma y al grupo exclusivo de WhatsApp.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="inline-block px-3 py-1 text-xs font-semibold bg-gray-100 text-gray-600 rounded-full mb-4">PREGUNTAS FRECUENTES</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Todo lo que necesitas saber</h2>
+                <p class="text-xl text-gray-600">Respuestas a las dudas más comunes sobre nuestra comunidad</p>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="border border-gray-200 rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none">
+                        <span class="text-lg font-medium">¿Qué nivel de conocimiento necesito para unirme?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">La comunidad está diseñada para todos los niveles. Si eres principiante, te guiaremos desde lo básico hasta lo avanzado. Si ya tienes experiencia, accederás a contenido de alto nivel que potenciará tus habilidades.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none">
+                        <span class="text-lg font-medium">¿Cómo son las sesiones semanales?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Nos reunimos todos los jueves a las 8:00 PM por Zoom. Cada sesión tiene una parte teórica con lo último en IA, demostraciones prácticas, resolución de casos específicos de miembros y espacio para networking. Las grabaciones quedan disponibles en la plataforma.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none">
+                        <span class="text-lg font-medium">¿Qué pasa si no puedo asistir a las sesiones en vivo?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Todas las sesiones quedan grabadas y disponibles en la plataforma de miembros, junto con los materiales complementarios. Además, en el grupo VIP de WhatsApp puedes hacer preguntas y recibir ayuda en cualquier momento.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none">
+                        <span class="text-lg font-medium">¿Hay garantía de satisfacción?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Sí, ofrecemos una garantía de 30 días. Si dentro de ese periodo sientes que la comunidad no cumple con tus expectativas, te devolvemos el 100% de tu inversión sin preguntas.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none">
+                        <span class="text-lg font-medium">¿El precio aumentará en el futuro?</span>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <p class="text-gray-600">Sí, el valor actual de 67.000 Gs/mes es exclusivo para miembros fundadores. A medida que agreguemos más contenido, herramientas y beneficios, el precio se ajustará para nuevos miembros. Tu tarifa como fundador nunca aumentará.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="text-2xl font-bold mb-2">¿Listo para revolucionar tu futuro con IA?</h2>
+                    <p class="text-gray-300">Únete ahora a la única comunidad de élite en Paraguay especializada en inteligencia artificial avanzada.</p>
+                </div>
+                <div class="md:w-1/2 flex justify-end">
+                    <a href="https://www.tpago.com.py/links/PBFWD13480" class="inline-flex items-center px-8 py-3 border border-transparent text-lg font-bold rounded-md shadow-sm text-gray-900 bg-white hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                        Comienza Ahora
+                        <i class="fas fa-arrow-right ml-3"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Élite IA Paraguay</h3>
+                    <p class="text-gray-400">La primera y única comunidad de élite especializada en inteligencia artificial avanzada en Paraguay.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Enlaces</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition">Beneficios</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition">Testimonios</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition">Membresía</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Términos</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Privacidad</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Garantía</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contacto</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-gray-400"><i class="fas fa-envelope mr-2"></i> contacto@michaelsahlmann.com</li>
+                        <li class="flex items-center text-gray-400"><i class="fab fa-whatsapp mr-2"></i> +595 981 328046</li>
+                        <li class="flex items-center text-gray-400"><i class="fas fa-map-marker-alt mr-2"></i> Asunción, Paraguay</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Élite IA Paraguay. Todos los derechos reservados.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+            document.querySelector('.mobile-menu').classList.toggle('hidden');
+        });
+
+        // FAQ toggle
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation for blob elements
+        const animateBlobs = () => {
+            const blobs = document.querySelectorAll('.animate-blob');
+            blobs.forEach((blob, index) => {
+                blob.style.animationDelay = `${index * 2}s`;
+            });
+        };
+        
+        animateBlobs();
+    </script>
+</body>
+</html>
